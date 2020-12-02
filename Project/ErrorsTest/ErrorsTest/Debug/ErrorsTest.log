@@ -1,0 +1,8 @@
+﻿  Error.cpp
+C:\Users\Petya Kotova\Desktop\ErrorsTest\ErrorsTest\Error.cpp(6,23): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  ErrorRepository.cpp
+C:\Users\Petya Kotova\Desktop\ErrorsTest\ErrorsTest\ErrorRepository.cpp(10,6): warning C4101: 'code': unreferenced local variable
+  ErrorsTest.cpp
+  Vector.cpp
+  Generating Code...
+  ErrorsTest.vcxproj -> C:\Users\Petya Kotova\Desktop\ErrorsTest\Debug\ErrorsTest.exe
