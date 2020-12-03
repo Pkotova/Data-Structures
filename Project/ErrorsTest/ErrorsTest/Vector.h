@@ -46,7 +46,7 @@ public:
 
 	friend std::ostream& operator<<(std::ostream& out, Vector<T>& other) //!< overloads operator <<
 	{
-		for (size_t i = 0; i < this->size; i++)
+		for (size_t i = 0; i < other.size; i++)
 		{
 			out << other.data[i] << std::endl;
 		}

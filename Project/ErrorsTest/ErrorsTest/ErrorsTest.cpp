@@ -3,9 +3,12 @@
 
 #include <iostream>
 #include "ErrorRepository.h"
-
+#include"MAPTag.h"
+#include "IMLRepository.h"
 int main()
 {	
-	ErrorRepository er;
-	er.printByCode(110);
+	ErrorRepository il;
+	il.splitString().print();
+
+	
 }
