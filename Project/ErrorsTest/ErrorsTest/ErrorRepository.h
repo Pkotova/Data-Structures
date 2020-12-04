@@ -29,6 +29,9 @@ public:
 	bool isValidSRTTag(string mapTag);
 	bool isMapTag(string tag);
 	bool isSTRTag(string tag);
+	LinkedList<string>& getAllData();
+	bool numericParameters();
 	bool check();
+	string cleanScript();
 };
 

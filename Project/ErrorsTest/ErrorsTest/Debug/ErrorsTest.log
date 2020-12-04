@@ -4,7 +4,11 @@ D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-
 D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\ErrorRepository.cpp(198,23): warning C4018: '<': signed/unsigned mismatch
 D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\ErrorRepository.cpp(243,23): warning C4018: '<': signed/unsigned mismatch
 D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\ErrorRepository.cpp(283,23): warning C4018: '<': signed/unsigned mismatch
+D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\ErrorRepository.cpp(346,23): warning C4018: '<': signed/unsigned mismatch
+D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\ErrorRepository.cpp(361,23): warning C4018: '<': signed/unsigned mismatch
 D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\ErrorRepository.cpp(67): warning C4715: 'ErrorRepository::getByCode': not all control paths return a value
 D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\ErrorRepository.cpp(273): warning C4715: 'ErrorRepository::isMissingTag': not all control paths return a value
 D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\ErrorRepository.cpp(235): warning C4715: 'ErrorRepository::unhandledTag': not all control paths return a value
+D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\ErrorRepository.cpp(373): warning C4715: 'ErrorRepository::numericParameters': not all control paths return a value
+D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\ErrorRepository.cpp(391): warning C4715: 'ErrorRepository::cleanScript': not all control paths return a value
   ErrorsTest.vcxproj -> D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\Debug\ErrorsTest.exe

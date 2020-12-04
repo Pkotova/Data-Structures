@@ -9,9 +9,10 @@
 int main()
 {	
 	ErrorRepository il;
-	//std::cout << il.removeSpaces();
-	//std::cout << il.isValidSRTTag("SRT-ORD\"ASC\"");
-	std::cout << il.missinAttribute();
 
+	//std::cout << il.getScript() << std::endl;
+	std::cout << il.cleanScript() << std::endl;
+	//std::cout << il.numericParameters()<<std::endl;
+	
 	
 }

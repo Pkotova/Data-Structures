@@ -36,7 +36,7 @@ LinkedList<Error>* ErrorRepository::read()
 string ErrorRepository::getScript() 
 {
 	IMLRepository il;
-	this->script = il.getScript();
+	this->script = il.getScript(); // RETURN SCRIPT IN ONE LINE
 	return this->script;
 }
 
@@ -272,7 +272,7 @@ bool ErrorRepository::isMissingTag()
 	
 }
 
-bool ErrorRepository::missinAttribute()
+bool ErrorRepository::missinAttribute() //TODO
 {
 	
 	LinkedList<string> info = halfSplit();
@@ -282,7 +282,7 @@ bool ErrorRepository::missinAttribute()
 	int size = info.Size();
 	for (size_t i = 0; i < size; i++)
 	{
-		if ((isMapTag(sc.getElementAt(i)) && isValidMAPTag(info.getElementAt(i))))
+		if ((isMapTag(sc.getElementAt(i)) && !isValidMAPTag(info.getElementAt(i))))
 		{
 			if (!unhandledTag())
 			{
@@ -338,11 +338,55 @@ bool ErrorRepository::isSTRTag(string tag)
 	 return tag == "SRT-REV" || tag == "SRT-ORD" || tag == "SRT-SLC" || tag == "SRT-DST";
 }
 
+LinkedList<string>& ErrorRepository::getAllData()
+{
+	LinkedList<string>* data = new LinkedList<string>();
+	LinkedList<string> info = halfSplit();
+	int size = info.Size();
+	for (size_t i = 0; i < size; i++)
+	{
+		if (i % 2 != 0 && info.getElementAt(i)[0] != '/')
+		{
+			data->addEnd(info.getElementAt(i));
+		}
+	}
+
+	return *data;
+}
+
+bool ErrorRepository::numericParameters()
+{
+	LinkedList<string> parameters = getAllData();
+	int size = parameters.Size();
+	for (size_t i = 0; i < size; i++)
+	{
+		if (!isDigit(parameters.getElementAt(i)))
+		{
+			std::cout << parameters.getElementAt(i) << std::endl;
+			printByCode(112);
+			exit(122);
+			return false;
+		}
+		
+	}
+
+}
+
 bool ErrorRepository::check()
 {
 	unhandledTag();
 	isMissingTag();
+	numericParameters();
+	missinAttribute();
+
 	return true;
 }
-
+string ErrorRepository::cleanScript()
+{
+	std::string script = getScript();
+	if (check())
+	{
+		return script;
+	}
+}
 
