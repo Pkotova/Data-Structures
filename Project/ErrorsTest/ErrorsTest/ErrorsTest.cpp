@@ -8,7 +8,8 @@
 int main()
 {	
 	ErrorRepository il;
-	il.splitString().print();
+     il.splitString().print();
+	 il.unhandledTag();
 
 	
 }

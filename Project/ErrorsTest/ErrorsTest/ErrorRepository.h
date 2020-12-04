@@ -16,9 +16,13 @@ public:
 	Error& getByCode(int code);
 	int countOpenSymbol(); // <
 	int countCloseSymbol(); // >
-	
+	string removeSpaces();
 	LinkedList<string>& splitString();
-	bool isDigit(char symbol);
+	bool isDigit(char symbol); 
+	bool isDigit(string symbol);
 	bool hasEnoughOpenCloseSymbols();
+	bool unhandledTag();
+	bool isMissingTag();
+
 };
 

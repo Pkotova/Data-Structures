@@ -1,4 +1,3 @@
-﻿  ErrorRepository.cpp
-D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\ErrorRepository.cpp(10,6): warning C4101: 'code': unreferenced local variable
-D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\ErrorRepository.cpp(65): warning C4715: 'ErrorRepository::getByCode': not all control paths return a value
+﻿  ErrorsTest.cpp
+D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\MAPTag.h(2,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   ErrorsTest.vcxproj -> D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\Debug\ErrorsTest.exe

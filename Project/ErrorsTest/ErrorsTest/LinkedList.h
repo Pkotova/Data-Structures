@@ -337,7 +337,7 @@ void LinkedList<T>::print() const
         return;
     }
     for (auto p = head; p != nullptr; p = p->next)
-        std::cout << p->data;
+        std::cout << p->data<<std::endl;
 }
 
 template<typename T>
