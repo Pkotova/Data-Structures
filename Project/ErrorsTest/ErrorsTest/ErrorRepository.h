@@ -18,11 +18,17 @@ public:
 	int countCloseSymbol(); // >
 	string removeSpaces();
 	LinkedList<string>& splitString();
+	LinkedList<string>& halfSplit();
 	bool isDigit(char symbol); 
 	bool isDigit(string symbol);
 	bool hasEnoughOpenCloseSymbols();
 	bool unhandledTag();
 	bool isMissingTag();
-
+	bool missinAttribute();
+	bool isValidMAPTag(string mapTag);
+	bool isValidSRTTag(string mapTag);
+	bool isMapTag(string tag);
+	bool isSTRTag(string tag);
+	bool check();
 };
 

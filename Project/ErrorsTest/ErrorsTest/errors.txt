@@ -26,3 +26,5 @@
 : Non-numeric data used
 113
 : Nesting error
+120
+: Missing or too much attributes

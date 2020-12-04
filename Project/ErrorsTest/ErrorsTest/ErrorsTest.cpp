@@ -5,11 +5,13 @@
 #include "ErrorRepository.h"
 #include"MAPTag.h"
 #include "IMLRepository.h"
+
 int main()
 {	
 	ErrorRepository il;
-     il.splitString().print();
-	 il.unhandledTag();
+	//std::cout << il.removeSpaces();
+	//std::cout << il.isValidSRTTag("SRT-ORD\"ASC\"");
+	std::cout << il.missinAttribute();
 
 	
 }
