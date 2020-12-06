@@ -233,7 +233,7 @@ namespace CppCLRWinformsProjekt {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1250, 584);
+			this->ClientSize = System::Drawing::Size(857, 584);
 			this->Controls->Add(this->label6);
 			this->Controls->Add(this->textBox5);
 			this->Controls->Add(this->label5);
