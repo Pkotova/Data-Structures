@@ -1,4 +1,7 @@
-﻿  ErrorRepository.cpp
+﻿  Error.cpp
+D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\Error.cpp(6,23): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  ErrorManagement.cpp
+  ErrorRepository.cpp
 D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\ErrorRepository.cpp(12,6): warning C4101: 'code': unreferenced local variable
 D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\ErrorRepository.cpp(147,26): warning C4129: '<': unrecognized character escape sequence
 D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\ErrorRepository.cpp(198,23): warning C4018: '<': signed/unsigned mismatch
@@ -6,9 +9,19 @@ D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-
 D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\ErrorRepository.cpp(283,23): warning C4018: '<': signed/unsigned mismatch
 D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\ErrorRepository.cpp(346,23): warning C4018: '<': signed/unsigned mismatch
 D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\ErrorRepository.cpp(361,23): warning C4018: '<': signed/unsigned mismatch
+  ErrorsTest.cpp
+D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\MAPTag.h(2,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  IMLRepository.cpp
+  LinkedList.cpp
+  MAPTag.cpp
+D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\MAPTag.h(2,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  String.cpp
+  Tag.cpp
+  Vector.cpp
+  Generating Code...
 D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\ErrorRepository.cpp(67): warning C4715: 'ErrorRepository::getByCode': not all control paths return a value
-D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\ErrorRepository.cpp(273): warning C4715: 'ErrorRepository::isMissingTag': not all control paths return a value
 D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\ErrorRepository.cpp(235): warning C4715: 'ErrorRepository::unhandledTag': not all control paths return a value
-D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\ErrorRepository.cpp(373): warning C4715: 'ErrorRepository::numericParameters': not all control paths return a value
+D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\ErrorRepository.cpp(273): warning C4715: 'ErrorRepository::isMissingTag': not all control paths return a value
 D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\ErrorRepository.cpp(391): warning C4715: 'ErrorRepository::cleanScript': not all control paths return a value
+D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\ErrorsTest\ErrorRepository.cpp(373): warning C4715: 'ErrorRepository::numericParameters': not all control paths return a value
   ErrorsTest.vcxproj -> D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\Project\ErrorsTest\Debug\ErrorsTest.exe
