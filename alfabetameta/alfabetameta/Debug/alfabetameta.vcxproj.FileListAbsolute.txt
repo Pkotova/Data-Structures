@@ -1,0 +1,3 @@
+C:\Users\Petya Kotova\Desktop\alfabetameta\alfabetameta\Debug\alfabetameta.vcxprojAssemblyReference.cache
+C:\Users\Petya Kotova\Desktop\alfabetameta\alfabetameta\Debug\alfabetameta.Form1.resources
+C:\Users\Petya Kotova\Desktop\alfabetameta\alfabetameta\Debug\alfabetameta.vcxproj.GenerateResource.cache
