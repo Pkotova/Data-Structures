@@ -148,6 +148,7 @@
     <ClCompile Include="MAPTag.cpp" />
     <ClCompile Include="String.cpp" />
     <ClCompile Include="Tag.cpp" />
+    <ClCompile Include="TagCalculations.cpp" />
     <ClCompile Include="Vector.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -159,6 +160,7 @@
     <ClInclude Include="MAPTag.h" />
     <ClInclude Include="String.h" />
     <ClInclude Include="Tag.h" />
+    <ClInclude Include="TagCalculations.h" />
     <ClInclude Include="Vector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
