@@ -1,0 +1,8 @@
+﻿  ErrorRepository.cpp
+C:\Users\Petya Kotova\Desktop\IML-Parser\IML-Parser\ErrorRepository.cpp(183,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Petya Kotova\Desktop\IML-Parser\IML-Parser\ErrorRepository.cpp(222,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Petya Kotova\Desktop\IML-Parser\IML-Parser\ErrorRepository.cpp(295,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Petya Kotova\Desktop\IML-Parser\IML-Parser\ErrorRepository.cpp(373,26): warning C4129: '<': unrecognized character escape sequence
+C:\Users\Petya Kotova\Desktop\IML-Parser\IML-Parser\ErrorRepository.cpp(405): warning C4715: 'ErrorRepository::halfSplit': not all control paths return a value
+C:\Users\Petya Kotova\Desktop\IML-Parser\IML-Parser\ErrorRepository.cpp(364): warning C4715: 'ErrorRepository::fullSplit': not all control paths return a value
+  IML-Parser.vcxproj -> C:\Users\Petya Kotova\Desktop\IML-Parser\Debug\IML-Parser.exe
