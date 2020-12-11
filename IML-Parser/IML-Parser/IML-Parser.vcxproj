@@ -143,7 +143,6 @@
     <ClCompile Include="ErrorRepository.cpp" />
     <ClCompile Include="IML-Parser.cpp" />
     <ClCompile Include="IMLRepository.cpp" />
-    <ClCompile Include="TagCalculations.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Error.h" />

@@ -267,23 +267,23 @@ Result* returnNodeResult(Tree* first)
 	}
 	else if (isAgg_Sum(first->tagNode.tagName))
 	{
-		newResult->list.push_back(add_sum(first->tagNode.content));
+		newResult->list.push_back(agg_sum(first->tagNode.content));
 	}
 	else if (isAgg_Pro(first->tagNode.tagName))
 	{
-		newResult->list.push_back(add_pro(first->tagNode.content));
+		newResult->list.push_back(agg_pro(first->tagNode.content));
 	}
 	else if (isAgg_Avg(first->tagNode.tagName))
 	{
-		newResult->list.push_back(add_avg(first->tagNode.content));
+		newResult->list.push_back(agg_avg(first->tagNode.content));
 	}
 	else if (isAgg_Fst(first->tagNode.tagName))
 	{
-		newResult->list.push_back(add_fst(first->tagNode.content));
+		newResult->list.push_back(agg_fst(first->tagNode.content));
 	}
 	else if (isAgg_Lst(first->tagNode.tagName))
 	{
-		newResult->list.push_back(add_lst(first->tagNode.content));
+		newResult->list.push_back(agg_lst(srt_rev(first->tagNode.content)));
 	}
 	else if (isSrt_Rev(first->tagNode.tagName))
 	{
