@@ -1,6 +1,0 @@
-C:\Users\Petya Kotova\Desktop\alfabetameta\alfabetameta\Debug\alfabetameta.vcxprojAssemblyReference.cache
-C:\Users\Petya Kotova\Desktop\alfabetameta\alfabetameta\Debug\alfabetameta.Form1.resources
-C:\Users\Petya Kotova\Desktop\alfabetameta\alfabetameta\Debug\alfabetameta.vcxproj.GenerateResource.cache
-D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\alfabetameta\alfabetameta\Debug\alfabetameta.vcxprojAssemblyReference.cache
-D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\alfabetameta\alfabetameta\Debug\alfabetameta.Form1.resources
-D:\1.Sofia University Bechelor\Third Course\First Semester\Data Structures\Data-structures\alfabetameta\alfabetameta\Debug\alfabetameta.vcxproj.GenerateResource.cache

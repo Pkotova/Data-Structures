@@ -1,7 +1,0 @@
-<SRT-ORD "ASC">81 3
-<MAP-INC "5">4 12 8
-<AGG-AVG>4 8
-<AGG-AVG>
-</MAP-INC>22
-</SRT-ORD>
-
